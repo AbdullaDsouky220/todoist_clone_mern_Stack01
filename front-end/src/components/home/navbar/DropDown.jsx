@@ -63,9 +63,9 @@ function DropDown({ showDropDown }) {
     <motion.div
       initial={{ opacity: 0, y: -100 }}
       whileInView={{ opacity: 1, y: 0 }}
-      className={` ${showDropDown ? "visble" : "hidden"}`}
+      className={`  ${showDropDown ? "visble" : "hidden"}`}
     >
-      <ul className="mt-4   flex flex-col gap-4 pl-32 pb-6">
+      <ul className="mt-4   flex flex-col gap-4 pl-2 md:pl-32 pb-6">
         {dropDownElement.map((ele, index) => {
           if (ele === "Resources") {
             return (
@@ -120,7 +120,7 @@ function DropDown({ showDropDown }) {
         })}
       </ul>
       <hr className="w-[70%] text-center self-center m-auto" />
-      <div className="mt-4 flex py-2  flex-row gap-4 pl-24 ">
+      <div className="mt-4 flex py-2  flex-row gap-4 pl-2 md:pl-24 ">
         <motion.button
           whileTap={{ scale: 0.92 }}
           className="p-3 px-6 w-[50%] text-slate-600 font-bold rounded bg-neutral-200 transition hover:bg-neutral-300 duration-75"

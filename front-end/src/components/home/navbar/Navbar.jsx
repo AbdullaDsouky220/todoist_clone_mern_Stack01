@@ -7,7 +7,7 @@ export default function Navbar() {
   const [toggleDropDown, setToggleDropDown] = useState(false);
   
   return (
-    <div className=" w-full sticky top-0 font-inter px-10 py-5 border-b-2 pb-4">
+    <div className=" w-full z-50 bg-white sticky top-0 font-inter px-10 py-5 border-b-2 pb-4">
       <div className="flex flex-row  items-center justify-between">
         <img
           src={logo}

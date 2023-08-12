@@ -10,7 +10,21 @@ export default {
         inter: ['Inter', 'sans'],
           graphik: ['Graphik', 'sans'],
       },
+      keyframes: {
+        slide: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      keyframes: {
+      slide: {
+        '0%': { transform: 'translateX(0)' },
+        '100%': { transform: 'translateX(-100%)' },
+      },
+    },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 }
