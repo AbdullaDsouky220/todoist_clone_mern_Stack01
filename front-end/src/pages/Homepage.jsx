@@ -1,7 +1,7 @@
 import Navbar from "../components/home/navbar/Navbar"
 import Hero from "../components/home/herosection/Hero"
 import Partner from "../components/home/partner/Partner"
-
+import Parallax from '../components/home/Parallax/Parallax'
 
 const Homepage = () => {
   return (
@@ -13,6 +13,7 @@ const Homepage = () => {
         {/* partner section */}
         <Partner/>
         {/* clear your mind */}
+        <Parallax/>
         {/* progress bar */}
         {/* Expore all todoist  */}
         {/* task mangeer */}
