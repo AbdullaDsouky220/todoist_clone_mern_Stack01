@@ -17,11 +17,16 @@ export default function Parallax() {
   })
 
   return (
-    <div className=" md:px-4 px-28">
+    <div    
+       className="flex flex-col
+        overflow-hidden gap-8 
+        xl:gap-16 center px-8 m-auto   "
+    >
         
       {clearYourMind.map((item, i) => (
         <div
           key={i}
+          className='flex flex-col gap-32'
         >
           <Image className="h-10 w-10/12" data={item} />
         </div>
