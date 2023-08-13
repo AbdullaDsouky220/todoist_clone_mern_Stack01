@@ -1,6 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./pages/error-page";
 import Homepage from "./pages/Homepage";
+import LoginPage from "./pages/auth/LoginPage";
+import SignUpPage from "./pages/auth/SignUp";
 
 const router = createBrowserRouter([
   {
@@ -11,6 +13,14 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <div>home Page</div>,
+  },
+  {
+    path:'auth/login',
+    element:<LoginPage/>
+  },
+  {
+    path:'auth/signup',
+    element:<SignUpPage/>
   },
 ]);
 function App() {

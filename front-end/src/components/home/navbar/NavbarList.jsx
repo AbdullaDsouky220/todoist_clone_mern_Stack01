@@ -1,5 +1,6 @@
 
 import {motion} from 'framer-motion'
+import { Link } from 'react-router-dom';
 const NavbarList = () => {
     const ListItems = [
         "Features",
@@ -30,9 +31,13 @@ const NavbarList = () => {
             <div className=" flex  border-l-2 flex-row gap-4 pl-4  ">
         <motion.button
           whileTap={{ scale: 0.92 }}
+          
           className=" px-4 text-slate-600 font-bold rounded bg-neutral-200 transition hover:bg-neutral-300 duration-75"
         >
+          <Link to='/auth/login'>
           log in
+
+          </Link>
         </motion.button>
         <motion.button
           whileTap={{ scale: 0.92 }}

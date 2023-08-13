@@ -6,3 +6,8 @@
 .icon {
     @apply bg-white  cursor-pointer transition hover:bg-slate-400 text-2xl p-1 rounded
 }
+.auth_button {
+    @apply  text-black border
+     flex items-center justify-center gap-4 min-w-fit   
+    p-4 px-16 transition  rounded-lg
+}
