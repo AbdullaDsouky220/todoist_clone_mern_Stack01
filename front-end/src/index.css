@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.icon {
+    @apply bg-white  cursor-pointer transition hover:bg-slate-400 text-2xl p-1 rounded
+}

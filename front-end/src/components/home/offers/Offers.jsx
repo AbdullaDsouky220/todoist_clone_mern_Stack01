@@ -1,4 +1,4 @@
-import { partnersList } from "../../../constants"
+import { OffersList } from "../../../constants"
 
 function Offers() {
   return (
@@ -11,11 +11,12 @@ function Offers() {
       </p>
       <div className="flex my-8  gap-8 flex-wrap xl:flex-nowrap items-center justify-center"> 
       {
-        partnersList.map((item)=>(
+        OffersList.map((item)=>(
           <div key={item} className="flex flex-col items-center p-4 font-inter font-semibold shadow hover:shadow-xl cursor-pointer transition gap-16 border  rounded w-[300px]">
-            <img src={item.path} className="='h-10 w-10"/>
+            <img src={item.img} 
+            className="='h-[100px] w-[150px]"/>
             <p>
-              {item.name}
+              {item.offer}
             </p>
           </div>
         ))

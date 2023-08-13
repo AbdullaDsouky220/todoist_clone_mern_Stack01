@@ -25,6 +25,9 @@ export default function LeftPart() {
       We’ve been building Todoist for 16 years and 195 days. Rest assured
       that we’ll never sell out to the highest bidder.
     </p>
+    <p className="text-blue-500 font-inter font-bold hover:bg-blue-200 p-4 rounded cursor-pointer transition">
+      Read about our long-term mission
+    </p>
   </div>
   )
 }

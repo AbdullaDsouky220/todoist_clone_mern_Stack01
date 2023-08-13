@@ -1,4 +1,5 @@
 
+import { Profiler } from "react";
 import {
     netflix,
     amazon,
@@ -9,6 +10,11 @@ import {
     clearYourMind1,
     clearYourMind2,
     clearYourMind3,
+    features,
+    templates,
+    prodQuiz,
+    extensions,
+    inspiration,
     
   } from "../../src/assets/index";
 export const partnersList = [
@@ -57,3 +63,71 @@ export const partnersList = [
         paragraph:'Tons of tasks, just one app. With workspaces, your personal, work, and team tasks can all live harmoniously under the same roof. (Sigh of relief). '
     }
   ]
+
+  export const OffersList=[
+    {
+    offer:'Features',
+    img:features,
+    amount:'1 million+',
+    for:'pro users'
+  },
+    {
+    offer:'Template gallery',
+    img:templates,
+    amount:'160 countries',
+    for:'worldwide'
+  },
+    {
+    offer:'Product quiz',
+    img:prodQuiz,
+    amount:'2 billion+',
+    for:'tasks compeleted'
+  },
+    {
+    offer:'Extension gallery',
+    img:extensions,
+    amount:'2 billion+',
+    for:'tasks compeleted'
+  },
+    {
+    offer:'inspiration Hub',
+    img:inspiration,
+    amount:'2 billion+',
+    for:'tasks compeleted'
+  },
+
+]
+
+export const footerLinks=[
+  {
+    category:'Features',
+    subCategories:
+    ['How is Workds',
+    'For Teams',
+    'Pricing',
+    'Templates'
+  ]
+  },
+  {
+    category:'Resources',
+    subCategories:
+    ['Download Apps',
+    'help Center',
+    'Producivity Method',
+    'Intergrations',
+    'Channel Partners',
+    'Developer Api',
+    'Status'
+  ]
+  },
+  {
+    category:'Company',
+    subCategories:
+    ['About US',
+    'Careers',
+    'Inspiration Hub',
+    'Press',
+    'Twist',
+  ]
+  },
+]

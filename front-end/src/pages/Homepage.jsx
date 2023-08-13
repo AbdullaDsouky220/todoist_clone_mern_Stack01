@@ -6,10 +6,10 @@ import ProgressBar from "../components/home/progressbar/ProgressBar"
 import Offers from "../components/home/offers/Offers"
 import TaskManager from "../components/home/TaskManager/TaskManager"
 import Download from "../components/home/download/download"
-
+import Footer from "../components/home/footer/footer"
 const Homepage = () => {
   return (
-    <div className="h-[1000vh]  relative ">
+    <div className="  relative ">
         {/* navbar */}
         <Navbar/>
         {/* hero section*/}
@@ -27,6 +27,7 @@ const Homepage = () => {
         {/* reviews and download */}
         <Download/>
         {/* footer */}
+        <Footer/>
     </div>
   )
 }
