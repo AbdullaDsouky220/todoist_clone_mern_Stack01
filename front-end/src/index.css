@@ -11,3 +11,12 @@
      flex items-center justify-center gap-4 min-w-fit   
     p-4 px-16 transition  rounded-lg
 }
+.side_icon{
+    @apply flex
+    active:bg-slate-100
+     cursor-pointer rounded 
+     items-center
+      w-[300px] pr-32
+      pl-4 py-2 gap-4 
+      font-inter
+}
